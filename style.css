@@ -61,13 +61,13 @@ body {
 }
 
 .cover {
-  height: 140px;
+  height: 37.333333%;
   background-image: url("images/bg-pattern-card.svg");
   border-radius: 20px 20px 0 0;
 }
 
 .name {
-  height: 145px;
+  height: 38.6666666%;
   position: relative;
   padding-top: 65px;
   text-align: center;
@@ -111,5 +111,16 @@ body {
 @media screen and (max-width: 400px) {
   .container {
     width: 86.7%;
+  }
+}
+@media screen and (max-height: 400px) {
+  .container {
+    height: 87%;
+  }
+  .cover {
+    height: 25%;
+  }
+  .name {
+    height: 50%;
   }
 }
